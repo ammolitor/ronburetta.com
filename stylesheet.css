@@ -1,17 +1,16 @@
-
 /* CSS Document */
 
 table {
-	border-collapse:collapse;
+    border-collapse: collapse;
 }
 
 body {
-	font-family:"Times New Roman", Times, serif;
-	/*background-image:url(images/background.jpg);
-	background-repeat:repeat; */
-	background-color:#AFA79F;
-	color:#000000;
-	font-size:14px;
+    font-family: "Times New Roman", Times, serif;
+    /*background-image:url(images/background.jpg);
+    background-repeat:repeat; */
+    background-color: #AFA79F;
+    color: #000000;
+    font-size: 14px;
 }
 
 body.main {
@@ -23,152 +22,152 @@ body.main {
 /* ----------BEGIN HEADER---------- */
 
 .header {
-	background-color:#FFFFFF;
-	width:900px;
-	position:absolute;
-	left:50px;
-	top:25px;
+    background-color: #FFFFFF;
+    width: 900px;
+    position: absolute;
+    left: 50px;
+    top: 25px;
 }
 
 .header .logo {
-	width:300px;
+    width: 300px;
 }
 
 .header .links {
-	position:absolute;
-	top:100px;
-	left:630px;
-	/*border-bottom:1px solid #AFA79F;
-	border-left:1px solid #AFA79F;
-	border-right:1px solid #AFA79F;
-	border-top:1px solid #AFA79F;*/
-	font-weight:normal;
-	font-size:14px;
-	padding:0px 0px 1px 0px;
-	margin-top:2px;
-	margin-right:2px;
-	margin-bottom:2px;
-	margin-left:2px;
-	text-align:center;
-	width:250px;
-	background-color:#FFFFFF;
-	/*-moz-border-radius:3px;*/
+    position: absolute;
+    top: 100px;
+    left: 630px;
+    /*border-bottom:1px solid #AFA79F;
+    border-left:1px solid #AFA79F;
+    border-right:1px solid #AFA79F;
+    border-top:1px solid #AFA79F;*/
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0px 0px 1px 0px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    text-align: center;
+    width: 250px;
+    background-color: #FFFFFF;
+    /*-moz-border-radius:3px;*/
 }
 
 /* ----------END HEADER---------- */
 /* ----------BEGIN MAIN---------- */
 
 .main {
-	width:900px;
-	position:absolute;
-	left:50px;
-	top:175px;
-	background-color:#FFFFFF;
-	border-top:1px solid #AFA79F;
+    width: 900px;
+    position: absolute;
+    left: 50px;
+    top: 175px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #AFA79F;
 }
 
 .main .linkbar {
-	background-color:#FFFFFF;
-	width:124px;
-	height:950px;
-	padding-top:5px;
-	border-right:1px solid #AFA79F;
+    background-color: #FFFFFF;
+    width: 124px;
+    height: 950px;
+    padding-top: 5px;
+    border-right: 1px solid #AFA79F;
 }
 
 .main .linkbar .link {
-	border-bottom:1px solid #AFA79F;
-	/*border-left:1px solid #AFA79F;
-	border-right:1px solid #AFA79F;
-	border-top:1px solid #AFA79F;*/
-	font-weight:normal;
-	font-size:14px;
-	/*padding:0px 13px 0px 13px;*/
-	margin-left:2px;
-	margin-right:2px;
-	margin-top:2px;
-	margin-bottom:2px;
-	text-align:center;
-	width:116px;
-	background-color:#FFFFFF;
-	/*-moz-border-radius:3px;*/
+    border-bottom: 1px solid #AFA79F;
+    /*border-left:1px solid #AFA79F;
+    border-right:1px solid #AFA79F;
+    border-top:1px solid #AFA79F;*/
+    font-weight: normal;
+    font-size: 14px;
+    /*padding:0px 13px 0px 13px;*/
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    width: 116px;
+    background-color: #FFFFFF;
+    /*-moz-border-radius:3px;*/
 }
 
 .main .content {
-	position:absolute;
-	left:125px;
-	top:0px;
-	width:775px;
-	color:#000000;
-	background-color:#FFFFFF;
+    position: absolute;
+    left: 125px;
+    top: 0px;
+    width: 775px;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 .main .content .title {
-	border-bottom:1px solid #AFA79F;
-	font-weight:normal;
-	font-size:22px;
-	text-align:center;
+    border-bottom: 1px solid #AFA79F;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
 }
 
 .main .content .text {
-	font-size:14px;
-	text-align:left;
-	padding:25px 25px 0px 25px;
-	height:auto;
+    font-size: 14px;
+    text-align: left;
+    padding: 25px 25px 0px 25px;
+    height: auto;
 }
 
 .main .content .text img {
-	padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 5px;
 }
 
 .main .content .text .images {
-	color:#000000;
-	font-size:14px;
-	margin:20px 0px 0px 20px;
-	text-align:left;
-	width:700px;
-	background-color:#FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    margin: 20px 0px 0px 20px;
+    text-align: left;
+    width: 700px;
+    background-color: #FFFFFF;
 }
 
 .main .content .iframe {
-	/*position:absolute;
-	top:35px;
-	left:105px;*/
-	height:450px;
-	width:850px;
+    /*position:absolute;
+    top:35px;
+    left:105px;*/
+    height: 450px;
+    width: 850px;
 }
 
 td.pics {
-	vertical-align:bottom;
-	text-align:center;
-	/*border:1px solid #AFA79F;*/
-	width:305px;
+    vertical-align: bottom;
+    text-align: center;
+    /*border:1px solid #AFA79F;*/
+    width: 305px;
 }
 
 td.comment {
-	vertical-align:middle;
-	text-align:center;
-	/*border:1px solid #AFA79F;*/
-	width:305px;
+    vertical-align: middle;
+    text-align: center;
+    /*border:1px solid #AFA79F;*/
+    width: 305px;
 }
 
 /* ----------END MAIN---------- */
 
 a:link {
-	text-decoration:none;
-	color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 a:visited {
-	text-decoration:none;
-	color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 a:hover {
-	text-decoration:underline;
-	color: #AFA79F;
+    text-decoration: underline;
+    color: #AFA79F;
 }
 
 a:active {
-	text-decoration:none;
-	color: #9DDFFC;
+    text-decoration: none;
+    color: #9DDFFC;
 }
