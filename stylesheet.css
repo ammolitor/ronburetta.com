@@ -16,7 +16,7 @@ body {
 body.main {
 }
 
-.pageMaster {
+.pagemaster {
 }
 
 /* ----------BEGIN HEADER---------- */
@@ -43,11 +43,8 @@ body.main {
     border-top:1px solid #AFA79F;*/
     font-weight: normal;
     font-size: 14px;
-    padding: 0px 0px 1px 0px;
-    margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    margin-left: 2px;
+    padding: 0 0 1px 0;
+    margin: 2px;
     text-align: center;
     width: 250px;
     background-color: #FFFFFF;
@@ -82,10 +79,7 @@ body.main {
     font-weight: normal;
     font-size: 14px;
     /*padding:0px 13px 0px 13px;*/
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin: 2px;
     text-align: center;
     width: 116px;
     background-color: #FFFFFF;
@@ -95,7 +89,7 @@ body.main {
 .main .content {
     position: absolute;
     left: 125px;
-    top: 0px;
+    top: 0;
     width: 775px;
     color: #000000;
     background-color: #FFFFFF;
@@ -111,18 +105,18 @@ body.main {
 .main .content .text {
     font-size: 14px;
     text-align: left;
-    padding: 25px 25px 0px 25px;
+    padding: 25px 25px 0 25px;
     height: auto;
 }
 
 .main .content .text img {
-    padding: 0px 0px 0px 5px;
+    padding: 0 0 0 5px;
 }
 
 .main .content .text .images {
     color: #000000;
     font-size: 14px;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0 0 20px;
     text-align: left;
     width: 700px;
     background-color: #FFFFFF;
